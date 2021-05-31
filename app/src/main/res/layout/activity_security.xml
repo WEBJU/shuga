@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/da_white"
+    tools:context=".activity.SecurityActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivBack"
+                style="@style/DABackIcon"/>
+            <TextView
+                style="@style/DAHeading"
+                android:layout_centerHorizontal="true"
+                android:layout_alignTop="@id/ivBack"
+                android:layout_alignBottom="@id/ivBack"
+                android:gravity="center"
+                android:textSize="@dimen/da_font_size_xlarge"
+                android:text="@string/da_security" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            style="@style/DAProfileText"
+            android:paddingTop="@dimen/da_spacing_large"
+            android:drawableStart="@drawable/da_ic_email"
+            android:drawableEnd="@drawable/da_ic_left_arrow"
+            android:text="@string/da_email" />
+
+        <View style="@style/DADivider" />
+
+        <TextView
+            android:id="@+id/tvPassword"
+            style="@style/DAProfileText"
+            android:paddingTop="@dimen/da_spacing_middle"
+            android:drawableStart="@drawable/da_ic_padlock"
+            android:drawableEnd="@drawable/da_ic_left_arrow"
+            android:text="@string/da_password" />
+
+        <View style="@style/DADivider" />
+
+
+
+    </LinearLayout>
+</ScrollView>

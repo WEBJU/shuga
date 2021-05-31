@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582115786841",
+    "project_id": "shuga-ff034",
+    "storage_bucket": "shuga-ff034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582115786841:android:58d009790e95d8b2137148",
+        "android_client_info": {
+          "package_name": "com.usalama.usalamatechnology.shuga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582115786841-kvmj0kile0j461i4hf83jo8a7kka0r4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8tv7WUaJrXuGU9pRIA2SsXKKm6SqZjFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582115786841-kvmj0kile0j461i4hf83jo8a7kka0r4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
